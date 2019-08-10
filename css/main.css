@@ -33,3 +33,38 @@ body{
     justify-content: center;
     z-index: 999;
 }
+
+/* header */
+.header {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* for the rest of the elements */
+    position: relative;
+}
+
+@media screen and (max-width: 768px){
+    .header {
+	    background: url('../video/Working-it/Snapshots/Working-it.jpg')center/cover fixed no-repeat;
+    }
+}
+
+.banner {
+    margin-left: 2rem;
+    border-left: 0.5rem solid var(--yelow);
+}
+
+.banner__title {
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    color: var(--blue);
+}
+
+.banner__title-name {
+	color: var(--yellow);
+    font-size: 4rem;
+    font-style: italic;
+    text-decoration: underline;
+}
