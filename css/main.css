@@ -84,3 +84,13 @@ body{
     height: 100%;
     object-fit: cover;
 }
+
+.video__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(245, 243, 245, 0.3);
+    z-index: 2;
+}
