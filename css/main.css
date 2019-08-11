@@ -130,6 +130,7 @@ body{
     z-index: 4;
     width: 0;
     overflow: hidden;
+    transition: all 0.5s linear;
 }
 
 .nav__links {
@@ -143,6 +144,7 @@ body{
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
     transition: all 0.5s linear;
+    text-transform: capitalize;
 }
 
 .nav__single-link:hover {
