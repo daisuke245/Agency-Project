@@ -1,0 +1,23 @@
+{
+  "name": "Agency-Project",
+  "version": "1.0.0",
+  "description": "Proyecto en el cual se aplican los tres lenguajes fundamentales de la web: HTML, CSS y JavaScript. Ademas se emplea el uso de jQuery para manipular facilmente el DOM, aplicar efectos, animaciones y el uso de AJAX.",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daisuke245/Agency-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daisuke245/Agency-Project/issues"
+  },
+  "homepage": "https://github.com/daisuke245/Agency-Project#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
