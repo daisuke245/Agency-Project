@@ -471,6 +471,18 @@ body{
 	color: var(--grey);
 }
 
+.section-title__text--border-blue {
+	border-color: var(--blue);
+}
+
+.section-title__info--blue {
+	color: var(--blue);
+}
+
+.item-margin{
+    margin: 2rem 0;
+}
+
 /* progress */
 .progress__img {
 	min-height: 50wh;
