@@ -708,3 +708,12 @@ body{
 	    flex: 0 25%;
     }
 }
+
+.team-img {
+	display: flex;
+}
+
+.team-img__item {
+	display: block;
+    width: 100%;
+}
